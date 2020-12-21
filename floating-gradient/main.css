@@ -1,0 +1,26 @@
+.img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(to top, #000 0, transparent max(20%, 10vw));
+}
+
+* {
+  box-sizing: border-box;
+}
