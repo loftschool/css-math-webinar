@@ -1,0 +1,18 @@
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background: yellowgreen;
+  /* padding: 0px max(2rem, 50vw - 400px / 2); */
+  padding: 0 max(10px, 2vw);
+}
+
+.content {
+  background: pink;
+  height: 400px;
+}
+
+* {
+  box-sizing: border-box;
+}
