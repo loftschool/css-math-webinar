@@ -1,17 +1,9 @@
 .container {
-  width: clamp(50%, 300px, 70%);
-  /* width: max(100px, min(300px, 50%)); */
-  /* width: 800px; */
-  margin: 0 auto;
   background: pink;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  /* 36 / 1200 / 100 = 3vw */
-  font-size: clamp(30px, 3vw, 36px); 
-  /* font-size: 100%; */
-  margin-bottom: min(10px, 3vw);
 }
 
 p {

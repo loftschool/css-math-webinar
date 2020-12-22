@@ -1,0 +1,13 @@
+{
+  "name": "calc-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vladimir Sabantsev <vladimir.sabantsev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
