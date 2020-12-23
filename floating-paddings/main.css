@@ -1,6 +1,7 @@
 .container {
   margin: 0 auto;
   background: yellowgreen;
+  padding: 0px max(20px, (100% - 600px) / 2);
 }
 
 .content {

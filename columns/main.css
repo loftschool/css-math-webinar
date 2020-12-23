@@ -1,0 +1,97 @@
+:root {
+  --cols: 12; }
+
+.row {
+  margin-left: -20px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.col {
+  background: grey;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 20px; }
+
+.col-1 {
+  width: calc((100% - (12 * 20px)) / var(--cols) * 1); }
+
+@media (max-width: 960px) {
+  .col-md-1 {
+    width: calc((100% - (12 * 20px)) / var(--cols) * 1); } }
+
+.col-2 {
+  width: calc((100% - (6 * 20px)) / var(--cols) * 2); }
+
+@media (max-width: 960px) {
+  .col-md-2 {
+    width: calc((100% - (6 * 20px)) / var(--cols) * 2); } }
+
+.col-3 {
+  width: calc((100% - (4 * 20px)) / var(--cols) * 3); }
+
+@media (max-width: 960px) {
+  .col-md-3 {
+    width: calc((100% - (4 * 20px)) / var(--cols) * 3); } }
+
+.col-4 {
+  width: calc((100% - (3 * 20px)) / var(--cols) * 4); }
+
+@media (max-width: 960px) {
+  .col-md-4 {
+    width: calc((100% - (3 * 20px)) / var(--cols) * 4); } }
+
+.col-5 {
+  width: calc((100% - (2.4 * 20px)) / var(--cols) * 5); }
+
+@media (max-width: 960px) {
+  .col-md-5 {
+    width: calc((100% - (2.4 * 20px)) / var(--cols) * 5); } }
+
+.col-6 {
+  width: calc((100% - (2 * 20px)) / var(--cols) * 6); }
+
+@media (max-width: 960px) {
+  .col-md-6 {
+    width: calc((100% - (2 * 20px)) / var(--cols) * 6); } }
+
+.col-7 {
+  width: calc((100% - (1.71429 * 20px)) / var(--cols) * 7); }
+
+@media (max-width: 960px) {
+  .col-md-7 {
+    width: calc((100% - (1.71429 * 20px)) / var(--cols) * 7); } }
+
+.col-8 {
+  width: calc((100% - (1.5 * 20px)) / var(--cols) * 8); }
+
+@media (max-width: 960px) {
+  .col-md-8 {
+    width: calc((100% - (1.5 * 20px)) / var(--cols) * 8); } }
+
+.col-9 {
+  width: calc((100% - (1.33333 * 20px)) / var(--cols) * 9); }
+
+@media (max-width: 960px) {
+  .col-md-9 {
+    width: calc((100% - (1.33333 * 20px)) / var(--cols) * 9); } }
+
+.col-10 {
+  width: calc((100% - (1.2 * 20px)) / var(--cols) * 10); }
+
+@media (max-width: 960px) {
+  .col-md-10 {
+    width: calc((100% - (1.2 * 20px)) / var(--cols) * 10); } }
+
+.col-11 {
+  width: calc((100% - (1.09091 * 20px)) / var(--cols) * 11); }
+
+@media (max-width: 960px) {
+  .col-md-11 {
+    width: calc((100% - (1.09091 * 20px)) / var(--cols) * 11); } }
+
+.col-12 {
+  width: calc((100% - (1 * 20px)) / var(--cols) * 12); }
+
+@media (max-width: 960px) {
+  .col-md-12 {
+    width: calc((100% - (1 * 20px)) / var(--cols) * 12); } }

@@ -1,12 +1,33 @@
+body, html {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --footerHeight: 70px;
+}
+
+.content {
+  /* min-height: calc(100vh - var(--footerHeight)); */
+  flex: 1;
 }
 
 .footer {
   background: cornflowerblue;
   color: aliceblue;
   padding: 20px;
-  height: 70px;
+  height: var(--footerHeight);
+}
+
+@media (max-width: 960px) {
+  :root {
+    --footerHeight: 100px
+  }
 }
 
 * {

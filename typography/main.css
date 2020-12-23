@@ -1,9 +1,13 @@
 .container {
   background: pink;
+  margin: 0 auto;
+  width: 800px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  font-size: clamp(30px, 3vw, 36px);
+  margin-bottom: min(10px, 3vw);
 }
 
 p {

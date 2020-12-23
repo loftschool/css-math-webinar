@@ -1,0 +1,29 @@
+:root {
+  --cols: 12;
+}
+
+.row {
+  margin-left: -20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  background: grey;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+@for $i from 1 through 12 {
+  $col-width: calc((100% - (#{12 / $i} * 20px)) / var(--cols) * #{$i});
+  .col-#{$i} {
+    width: $col-width;
+  }
+
+  .col-md-#{$i} {
+    @media (max-width: 960px) {
+      width: $col-width;
+    }
+  }
+}
